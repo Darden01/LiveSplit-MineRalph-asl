@@ -23,7 +23,6 @@ init{
 
 
 update{
-	
 	while (true) {
 		vars.line = vars.reader.ReadLine();
 		
