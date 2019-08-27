@@ -69,8 +69,6 @@ start{
 
 split{
 	if(vars.line != "1-1"){
-		//vars.found = levelList.Where(x => x.Contains(vars.line.Substring(0,4))).FirstOrDefault();
-
 		if(vars.levels.Contains(vars.line.Substring(0,4)) ){
 			print("split");
 			return true;
