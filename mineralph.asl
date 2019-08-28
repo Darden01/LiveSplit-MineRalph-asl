@@ -1,8 +1,6 @@
 state("MineRalph"){}
 
-startup{
-	settings.Add("reset", true, "Reset on Restart");
-}
+startup{}
 
 
 init{ 
